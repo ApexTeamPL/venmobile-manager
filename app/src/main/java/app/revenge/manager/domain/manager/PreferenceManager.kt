@@ -1,13 +1,13 @@
-package app.revenge.manager.domain.manager
+package io.apexteam.vmanager.domain.manager
 
 import android.content.Context
 import android.os.Build
 import android.os.Environment
 import androidx.annotation.StringRes
-import app.revenge.manager.BuildConfig
-import app.revenge.manager.R
-import app.revenge.manager.domain.manager.base.BasePreferenceManager
-import app.revenge.manager.utils.DiscordVersion
+import io.apexteam.vmanager.BuildConfig
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.domain.manager.base.BasePreferenceManager
+import io.apexteam.vmanager.utils.DiscordVersion
 import java.io.File
 import java.util.concurrent.TimeUnit
 
@@ -22,7 +22,7 @@ class PreferenceManager(context: Context) :
 
     var appName by stringPreference("app_name", BuildConfig.MOD_NAME)
 
-    var discordVersion by stringPreference("discord_version", "")
+    var discordVersion by stringPreference("discord_version", "287013")
 
     var moduleVersion by stringPreference("module_version", "")
 

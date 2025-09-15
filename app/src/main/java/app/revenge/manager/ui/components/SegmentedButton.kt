@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.components
+package io.apexteam.vmanager.ui.components
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background

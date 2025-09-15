@@ -1,4 +1,4 @@
-package app.revenge.manager
+package io.apexteam.vmanager
 
 import android.app.Application
 import android.app.NotificationChannel
@@ -7,13 +7,13 @@ import android.content.Context
 import androidx.work.ExistingPeriodicWorkPolicy
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
-import app.revenge.manager.di.httpModule
-import app.revenge.manager.di.managerModule
-import app.revenge.manager.di.repositoryModule
-import app.revenge.manager.di.viewModelModule
-import app.revenge.manager.domain.manager.PreferenceManager
-import app.revenge.manager.domain.manager.UpdateCheckerDuration
-import app.revenge.manager.updatechecker.worker.UpdateWorker
+import io.apexteam.vmanager.di.httpModule
+import io.apexteam.vmanager.di.managerModule
+import io.apexteam.vmanager.di.repositoryModule
+import io.apexteam.vmanager.di.viewModelModule
+import io.apexteam.vmanager.domain.manager.PreferenceManager
+import io.apexteam.vmanager.domain.manager.UpdateCheckerDuration
+import io.apexteam.vmanager.updatechecker.worker.UpdateWorker
 import org.koin.android.ext.android.get
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
@@ -39,7 +39,7 @@ class ManagerApplication : Application() {
         if (prefs.updateDuration != UpdateCheckerDuration.DISABLED) {
             val duration = prefs.updateDuration
             WorkManager.getInstance(applicationContext).enqueueUniquePeriodicWork(
-                "app.revenge.manager.UPDATE_CHECK",
+                "io.apexteam.vmanager.UPDATE_CHECK",
                 ExistingPeriodicWorkPolicy.KEEP,
                 PeriodicWorkRequestBuilder<UpdateWorker>(duration.time, duration.unit).build()
             )

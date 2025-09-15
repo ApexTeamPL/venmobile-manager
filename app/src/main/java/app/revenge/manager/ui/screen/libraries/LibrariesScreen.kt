@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.screen.libraries
+package io.apexteam.vmanager.ui.screen.libraries
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.WindowInsets
@@ -23,10 +23,10 @@ import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.koin.getScreenModel
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import app.revenge.manager.R
-import app.revenge.manager.ui.components.ThinDivider
-import app.revenge.manager.ui.viewmodel.libraries.LibrariesViewModel
-import app.revenge.manager.ui.widgets.libraries.LibraryItem
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.ui.components.ThinDivider
+import io.apexteam.vmanager.ui.viewmodel.libraries.LibrariesViewModel
+import io.apexteam.vmanager.ui.widgets.libraries.LibraryItem
 
 class LibrariesScreen: Screen {
 

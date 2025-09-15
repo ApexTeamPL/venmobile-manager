@@ -1,4 +1,4 @@
-package app.revenge.manager.installer.util
+package io.apexteam.vmanager.installer.util
 
 import android.Manifest
 import pxb.android.axml.AxmlReader

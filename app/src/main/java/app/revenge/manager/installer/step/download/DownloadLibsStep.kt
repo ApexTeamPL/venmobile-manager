@@ -1,9 +1,9 @@
-package app.revenge.manager.installer.step.download
+package io.apexteam.vmanager.installer.step.download
 
 import android.os.Build
 import androidx.compose.runtime.Stable
-import app.revenge.manager.R
-import app.revenge.manager.installer.step.download.base.DownloadStep
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.installer.step.download.base.DownloadStep
 import java.io.File
 
 /**

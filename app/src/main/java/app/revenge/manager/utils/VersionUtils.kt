@@ -1,7 +1,7 @@
-package app.revenge.manager.utils
+package io.apexteam.vmanager.utils
 
 import androidx.annotation.StringRes
-import app.revenge.manager.R
+import io.apexteam.vmanager.R
 import java.io.Serializable
 
 data class DiscordVersion(

@@ -1,10 +1,10 @@
-package app.revenge.manager.ui.components
+package io.apexteam.vmanager.ui.components
 
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import app.revenge.manager.utils.DimenUtils
+import io.apexteam.vmanager.utils.DimenUtils
 
 @Composable
 fun NavBarSpacer() {

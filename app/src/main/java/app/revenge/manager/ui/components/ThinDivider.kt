@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.components
+package io.apexteam.vmanager.ui.components
 
 import androidx.compose.material3.Divider
 import androidx.compose.material3.MaterialTheme

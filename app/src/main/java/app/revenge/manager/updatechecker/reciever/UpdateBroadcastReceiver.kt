@@ -1,4 +1,4 @@
-package app.revenge.manager.updatechecker.reciever
+package io.apexteam.vmanager.updatechecker.reciever
 
 import android.app.NotificationManager
 import android.app.PendingIntent
@@ -6,11 +6,11 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import androidx.core.app.NotificationCompat
-import app.revenge.manager.BuildConfig
-import app.revenge.manager.R
-import app.revenge.manager.utils.Channels
-import app.revenge.manager.utils.DiscordVersion
-import app.revenge.manager.utils.Intents
+import io.apexteam.vmanager.BuildConfig
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.utils.Channels
+import io.apexteam.vmanager.utils.DiscordVersion
+import io.apexteam.vmanager.utils.Intents
 
 class UpdateBroadcastReceiver : BroadcastReceiver() {
 

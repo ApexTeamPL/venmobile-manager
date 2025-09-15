@@ -1,4 +1,4 @@
-package app.revenge.manager.installer.step
+package io.apexteam.vmanager.installer.step
 
 enum class StepStatus {
     /**

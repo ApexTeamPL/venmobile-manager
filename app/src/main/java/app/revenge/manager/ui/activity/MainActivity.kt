@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.activity
+package io.apexteam.vmanager.ui.activity
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -8,11 +8,11 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.core.app.ActivityCompat
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import app.revenge.manager.ui.screen.home.HomeScreen
-import app.revenge.manager.ui.screen.installer.InstallerScreen
-import app.revenge.manager.ui.theme.RevengeManagerTheme
-import app.revenge.manager.utils.DiscordVersion
-import app.revenge.manager.utils.Intents
+import io.apexteam.vmanager.ui.screen.home.HomeScreen
+import io.apexteam.vmanager.ui.screen.installer.InstallerScreen
+import io.apexteam.vmanager.ui.theme.VencoreManagerTheme
+import io.apexteam.vmanager.utils.DiscordVersion
+import io.apexteam.vmanager.utils.Intents
 import cafe.adriel.voyager.navigator.Navigator
 import cafe.adriel.voyager.transitions.SlideTransition
 
@@ -38,7 +38,7 @@ class MainActivity : ComponentActivity() {
         }
 
         setContent {
-            RevengeManagerTheme {
+            VencoreManagerTheme {
                 Navigator(screen) {
                     SlideTransition(it)
                 }

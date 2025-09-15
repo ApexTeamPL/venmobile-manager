@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.widgets.home
+package io.apexteam.vmanager.ui.widgets.home
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -20,7 +20,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
-import app.revenge.manager.network.dto.Commit
+import io.apexteam.vmanager.network.dto.Commit
 import kotlinx.datetime.toJavaInstant
 import java.text.SimpleDateFormat
 import java.util.Date

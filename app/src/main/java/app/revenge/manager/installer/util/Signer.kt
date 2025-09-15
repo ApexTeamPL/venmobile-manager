@@ -1,9 +1,9 @@
-package app.revenge.manager.installer.util
+package io.apexteam.vmanager.installer.util
 
 import android.content.Context
 import com.android.apksig.ApkSigner
-import app.revenge.manager.BuildConfig
-import app.revenge.manager.utils.Constants
+import io.apexteam.vmanager.BuildConfig
+import io.apexteam.vmanager.utils.Constants
 import org.bouncycastle.asn1.x500.X500Name
 import org.bouncycastle.asn1.x509.SubjectPublicKeyInfo
 import org.bouncycastle.cert.X509v3CertificateBuilder

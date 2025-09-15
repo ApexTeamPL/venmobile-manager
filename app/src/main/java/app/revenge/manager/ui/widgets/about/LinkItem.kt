@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.widgets.about
+package io.apexteam.vmanager.ui.widgets.about
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes

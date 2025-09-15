@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.widgets.installer
+package io.apexteam.vmanager.ui.widgets.installer
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
@@ -23,9 +23,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import app.revenge.manager.R
-import app.revenge.manager.installer.util.LogEntry
-import app.revenge.manager.utils.thenIf
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.installer.util.LogEntry
+import io.apexteam.vmanager.utils.thenIf
 
 /**
  * UI for a log entry, displays the level and message and can be expanded with a click to show the timestamp

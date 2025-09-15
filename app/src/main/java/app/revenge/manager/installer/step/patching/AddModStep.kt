@@ -1,15 +1,15 @@
-package app.revenge.manager.installer.step.patching
+package io.apexteam.vmanager.installer.step.patching
 
-import app.revenge.manager.BuildConfig
-import app.revenge.manager.R
-import app.revenge.manager.installer.step.Step
-import app.revenge.manager.installer.step.StepGroup
-import app.revenge.manager.installer.step.StepRunner
-import app.revenge.manager.installer.step.download.DownloadModStep
+import io.apexteam.vmanager.BuildConfig
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.installer.step.Step
+import io.apexteam.vmanager.installer.step.StepGroup
+import io.apexteam.vmanager.installer.step.StepRunner
+import io.apexteam.vmanager.installer.step.download.DownloadModStep
 import java.io.File
 
 /**
- * Uses LSPatch to inject the Revenge XPosed module into Discord
+ * Uses LSPatch to inject the Vencore XPosed module into Discord
  *
  * @param signedDir The signed apks to patch
  * @param lspatchedDir Output directory for LSPatch
@@ -30,7 +30,7 @@ class AddModStep(
             ?.takeIf { it.isNotEmpty() }
             ?: throw Error("Missing APKs from signing step")
 
-        app.revenge.manager.installer.util.Patcher.patch(
+        io.apexteam.vmanager.installer.util.Patcher.patch(
             runner.logger,
             outputDir = lspatchedDir,
             apkPaths = files.map { it.absolutePath },

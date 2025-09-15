@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.widgets.libraries
+package io.apexteam.vmanager.ui.widgets.libraries
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.combinedClickable
@@ -28,9 +28,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.mikepenz.aboutlibraries.entity.Library
 import com.mikepenz.aboutlibraries.util.author
-import app.revenge.manager.R
-import app.revenge.manager.ui.components.Label
-import app.revenge.manager.utils.contentDescription
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.ui.components.Label
+import io.apexteam.vmanager.utils.contentDescription
 
 @Composable
 @OptIn(ExperimentalLayoutApi::class, ExperimentalFoundationApi::class)

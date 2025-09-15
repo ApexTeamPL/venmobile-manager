@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.components.settings
+package io.apexteam.vmanager.ui.components.settings
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.slideInVertically
@@ -12,8 +12,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.res.stringResource
-import app.revenge.manager.R
-import app.revenge.manager.ui.components.EnumRadioController
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.ui.components.EnumRadioController
 
 @Composable
 inline fun <reified E : Enum<E>> SettingsChoiceDialog(

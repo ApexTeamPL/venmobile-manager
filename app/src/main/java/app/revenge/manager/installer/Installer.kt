@@ -1,4 +1,4 @@
-package app.revenge.manager.installer
+package io.apexteam.vmanager.installer
 
 import java.io.File
 

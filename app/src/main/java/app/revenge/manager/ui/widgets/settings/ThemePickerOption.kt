@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.widgets.settings
+package io.apexteam.vmanager.ui.widgets.settings
 
 import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.core.tween
@@ -24,9 +24,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
-import app.revenge.manager.domain.manager.PreferenceManager
-import app.revenge.manager.domain.manager.Theme
-import app.revenge.manager.utils.contentDescription
+import io.apexteam.vmanager.domain.manager.PreferenceManager
+import io.apexteam.vmanager.domain.manager.Theme
+import io.apexteam.vmanager.utils.contentDescription
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalFoundationApi::class)

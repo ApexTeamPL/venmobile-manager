@@ -1,8 +1,8 @@
-package app.revenge.manager.di
+package io.apexteam.vmanager.di
 
-import app.revenge.manager.domain.manager.DownloadManager
-import app.revenge.manager.domain.manager.InstallManager
-import app.revenge.manager.domain.manager.PreferenceManager
+import io.apexteam.vmanager.domain.manager.DownloadManager
+import io.apexteam.vmanager.domain.manager.InstallManager
+import io.apexteam.vmanager.domain.manager.PreferenceManager
 import org.koin.core.module.dsl.singleOf
 import org.koin.dsl.module
 

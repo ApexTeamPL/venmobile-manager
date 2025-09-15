@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.widgets.installer
+package io.apexteam.vmanager.ui.widgets.installer
 
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
@@ -17,8 +17,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.Dp
-import app.revenge.manager.R
-import app.revenge.manager.installer.step.StepStatus
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.installer.step.StepStatus
 import kotlin.math.floor
 import kotlin.math.roundToInt
 

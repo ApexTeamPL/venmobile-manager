@@ -1,26 +1,26 @@
-package app.revenge.manager.installer.step.patching
+package io.apexteam.vmanager.installer.step.patching
 
 import android.content.Context
 import androidx.compose.ui.graphics.Color
 import com.github.diamondminer88.zip.ZipWriter
-import app.revenge.manager.BuildConfig
-import app.revenge.manager.R
-import app.revenge.manager.domain.manager.PreferenceManager
-import app.revenge.manager.installer.step.Step
-import app.revenge.manager.installer.step.StepGroup
-import app.revenge.manager.installer.step.StepRunner
-import app.revenge.manager.installer.step.download.DownloadBaseStep
-import app.revenge.manager.installer.utils.ArscUtil
-import app.revenge.manager.installer.utils.ArscUtil.addColorResource
-import app.revenge.manager.installer.utils.ArscUtil.getMainArscChunk
-import app.revenge.manager.installer.utils.ArscUtil.getPackageChunk
-import app.revenge.manager.installer.utils.ArscUtil.getResourceFileName
-import app.revenge.manager.installer.utils.AxmlUtil
-import app.revenge.manager.utils.DiscordVersion
+import io.apexteam.vmanager.BuildConfig
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.domain.manager.PreferenceManager
+import io.apexteam.vmanager.installer.step.Step
+import io.apexteam.vmanager.installer.step.StepGroup
+import io.apexteam.vmanager.installer.step.StepRunner
+import io.apexteam.vmanager.installer.step.download.DownloadBaseStep
+import io.apexteam.vmanager.installer.utils.ArscUtil
+import io.apexteam.vmanager.installer.utils.ArscUtil.addColorResource
+import io.apexteam.vmanager.installer.utils.ArscUtil.getMainArscChunk
+import io.apexteam.vmanager.installer.utils.ArscUtil.getPackageChunk
+import io.apexteam.vmanager.installer.utils.ArscUtil.getResourceFileName
+import io.apexteam.vmanager.installer.utils.AxmlUtil
+import io.apexteam.vmanager.utils.DiscordVersion
 import org.koin.core.component.inject
 
 /**
- * Replaces the existing app icons with Revenge tinted ones
+ * Replaces the existing app icons with Vencore tinted ones
  */
 class ReplaceIconStep : Step() {
 

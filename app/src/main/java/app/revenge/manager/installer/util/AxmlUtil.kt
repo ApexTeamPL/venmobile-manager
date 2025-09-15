@@ -1,7 +1,7 @@
 // https://github.com/Aliucord/Manager/blob/main/app/src/main/kotlin/com/aliucord/manager/installer/util/AxmlUtil.kt
-package app.revenge.manager.installer.utils
+package io.apexteam.vmanager.installer.utils
 
-import app.revenge.manager.utils.find
+import io.apexteam.vmanager.utils.find
 import com.github.diamondminer88.zip.ZipReader
 import com.github.diamondminer88.zip.ZipWriter
 import com.google.devrel.gmscore.tools.apk.arsc.*

@@ -1,18 +1,18 @@
-package app.revenge.manager.installer.step.installing
+package io.apexteam.vmanager.installer.step.installing
 
 import android.content.Context
-import app.revenge.manager.R
-import app.revenge.manager.domain.manager.InstallMethod
-import app.revenge.manager.domain.manager.PreferenceManager
-import app.revenge.manager.installer.Installer
-import app.revenge.manager.installer.session.SessionInstaller
-import app.revenge.manager.installer.shizuku.ShizukuInstaller
-import app.revenge.manager.installer.shizuku.ShizukuPermissions
-import app.revenge.manager.installer.step.Step
-import app.revenge.manager.installer.step.StepGroup
-import app.revenge.manager.installer.step.StepRunner
-import app.revenge.manager.utils.isMiui
-import app.revenge.manager.utils.showToast
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.domain.manager.InstallMethod
+import io.apexteam.vmanager.domain.manager.PreferenceManager
+import io.apexteam.vmanager.installer.Installer
+import io.apexteam.vmanager.installer.session.SessionInstaller
+import io.apexteam.vmanager.installer.shizuku.ShizukuInstaller
+import io.apexteam.vmanager.installer.shizuku.ShizukuPermissions
+import io.apexteam.vmanager.installer.step.Step
+import io.apexteam.vmanager.installer.step.StepGroup
+import io.apexteam.vmanager.installer.step.StepRunner
+import io.apexteam.vmanager.utils.isMiui
+import io.apexteam.vmanager.utils.showToast
 import org.koin.core.component.inject
 import java.io.File
 

@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.screen.installer
+package io.apexteam.vmanager.ui.screen.installer
 
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Box
@@ -35,19 +35,19 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.DpOffset
 import androidx.compose.ui.unit.dp
-import app.revenge.manager.BuildConfig
+import io.apexteam.vmanager.BuildConfig
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.koin.getScreenModel
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import app.revenge.manager.R
-import app.revenge.manager.domain.manager.PreferenceManager
-import app.revenge.manager.installer.util.LogEntry
-import app.revenge.manager.ui.viewmodel.installer.LogViewerViewModel
-import app.revenge.manager.ui.widgets.installer.LogLine
-import app.revenge.manager.utils.DimenUtils
-import app.revenge.manager.utils.rememberFileSaveLauncher
-import app.revenge.manager.utils.thenIf
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.domain.manager.PreferenceManager
+import io.apexteam.vmanager.installer.util.LogEntry
+import io.apexteam.vmanager.ui.viewmodel.installer.LogViewerViewModel
+import io.apexteam.vmanager.ui.widgets.installer.LogLine
+import io.apexteam.vmanager.utils.DimenUtils
+import io.apexteam.vmanager.utils.rememberFileSaveLauncher
+import io.apexteam.vmanager.utils.thenIf
 import org.koin.androidx.compose.get
 import org.koin.core.parameter.parametersOf
 

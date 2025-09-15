@@ -1,4 +1,4 @@
-package app.revenge.manager.domain.manager.base
+package io.apexteam.vmanager.domain.manager.base
 
 import android.content.SharedPreferences
 import androidx.compose.runtime.getValue

@@ -1,8 +1,8 @@
-package app.revenge.manager.network.service
+package io.apexteam.vmanager.network.service
 
-import app.revenge.manager.network.utils.ApiError
-import app.revenge.manager.network.utils.ApiFailure
-import app.revenge.manager.network.utils.ApiResponse
+import io.apexteam.vmanager.network.utils.ApiError
+import io.apexteam.vmanager.network.utils.ApiFailure
+import io.apexteam.vmanager.network.utils.ApiResponse
 import io.ktor.client.HttpClient
 import io.ktor.client.request.HttpRequestBuilder
 import io.ktor.client.request.request

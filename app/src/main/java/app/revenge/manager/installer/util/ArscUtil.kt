@@ -1,11 +1,11 @@
 // https://github.com/Aliucord/Manager/blob/main/app/src/main/kotlin/com/aliucord/manager/installer/util/ArscUtil.kt
-package app.revenge.manager.installer.utils
+package io.apexteam.vmanager.installer.utils
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import com.github.diamondminer88.zip.ZipReader
 import com.google.devrel.gmscore.tools.apk.arsc.*
-import app.revenge.manager.BuildConfig
+import io.apexteam.vmanager.BuildConfig
 import java.io.File
 
 object ArscUtil {

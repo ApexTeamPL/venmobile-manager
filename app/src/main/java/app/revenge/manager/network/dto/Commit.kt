@@ -1,4 +1,4 @@
-package app.revenge.manager.network.dto
+package io.apexteam.vmanager.network.dto
 
 import kotlinx.datetime.Instant
 import kotlinx.serialization.SerialName

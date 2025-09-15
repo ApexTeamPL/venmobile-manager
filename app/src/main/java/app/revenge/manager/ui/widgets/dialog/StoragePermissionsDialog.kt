@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.widgets.dialog
+package io.apexteam.vmanager.ui.widgets.dialog
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -14,8 +14,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.window.DialogProperties
 import androidx.core.net.toUri
 import com.google.accompanist.permissions.*
-import app.revenge.manager.BuildConfig
-import app.revenge.manager.R
+import io.apexteam.vmanager.BuildConfig
+import io.apexteam.vmanager.R
 
 @Composable
 fun StoragePermissionsDialog() {

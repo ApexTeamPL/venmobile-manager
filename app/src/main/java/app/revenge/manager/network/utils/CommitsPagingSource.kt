@@ -1,10 +1,10 @@
-package app.revenge.manager.network.utils
+package io.apexteam.vmanager.network.utils
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import app.revenge.manager.BuildConfig
-import app.revenge.manager.domain.repository.RestRepository
-import app.revenge.manager.network.dto.Commit
+import io.apexteam.vmanager.BuildConfig
+import io.apexteam.vmanager.domain.repository.RestRepository
+import io.apexteam.vmanager.network.dto.Commit
 
 class CommitsPagingSource(
     private val repo: RestRepository

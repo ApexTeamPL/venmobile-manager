@@ -1,10 +1,10 @@
-package app.revenge.manager.installer.shizuku
+package io.apexteam.vmanager.installer.shizuku
 
 import android.content.Context
-import app.revenge.manager.R
-import app.revenge.manager.domain.manager.InstallManager
-import app.revenge.manager.installer.Installer
-import app.revenge.manager.utils.showToast
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.domain.manager.InstallManager
+import io.apexteam.vmanager.installer.Installer
+import io.apexteam.vmanager.utils.showToast
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.koin.core.component.KoinComponent

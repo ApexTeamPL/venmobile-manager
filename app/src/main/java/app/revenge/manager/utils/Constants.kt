@@ -1,13 +1,12 @@
-package app.revenge.manager.utils
+package io.apexteam.vmanager.utils
 
 import android.os.Environment
-import app.revenge.manager.BuildConfig
+import io.apexteam.vmanager.BuildConfig
 
 object Constants {
     val TEAM_MEMBERS = listOf(
-        TeamMember("Palm", "Lead developer", "palmdevs"),
-        TeamMember("oSumAtrIX", "Developer", "osumatrix"),
-        TeamMember("Nexpid", "Developer", "nexpid"),
+        TeamMember("Win81VMUser", "Developer", "Win81VMUser"),
+        TeamMember("slara6804", "Team", "slara6804"),
     )
 
     // NOTE: This is no longer used

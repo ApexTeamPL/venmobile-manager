@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.widgets.installer
+package io.apexteam.vmanager.ui.widgets.installer
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.layout.Arrangement
@@ -14,8 +14,8 @@ import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import app.revenge.manager.R
-import app.revenge.manager.installer.step.StepStatus
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.installer.step.StepStatus
 
 /**
  * Displays a steps name, status, and progress

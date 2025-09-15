@@ -1,8 +1,8 @@
-package app.revenge.manager.domain.repository
+package io.apexteam.vmanager.domain.repository
 
-import app.revenge.manager.network.service.RestService
-import app.revenge.manager.network.utils.transform
-import app.revenge.manager.utils.DiscordVersion
+import io.apexteam.vmanager.network.service.RestService
+import io.apexteam.vmanager.network.utils.transform
+import io.apexteam.vmanager.utils.DiscordVersion
 
 class RestRepository(
     private val service: RestService

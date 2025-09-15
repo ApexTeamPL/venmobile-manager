@@ -1,4 +1,4 @@
-package app.revenge.manager.domain.manager
+package io.apexteam.vmanager.domain.manager
 
 import android.annotation.SuppressLint
 import android.app.PendingIntent
@@ -10,8 +10,8 @@ import android.os.Build
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
-import app.revenge.manager.BuildConfig
-import app.revenge.manager.installer.session.InstallService
+import io.apexteam.vmanager.BuildConfig
+import io.apexteam.vmanager.installer.session.InstallService
 
 class InstallManager(
     private val context: Context,

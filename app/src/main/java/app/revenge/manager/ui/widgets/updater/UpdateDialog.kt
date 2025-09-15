@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.widgets.updater
+package io.apexteam.vmanager.ui.widgets.updater
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.size
@@ -18,8 +18,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.DialogProperties
-import app.revenge.manager.R
-import app.revenge.manager.network.dto.Release
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.network.dto.Release
 
 @Composable
 fun UpdateDialog(

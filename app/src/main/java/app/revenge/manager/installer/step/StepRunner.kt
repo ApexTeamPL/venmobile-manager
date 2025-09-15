@@ -1,4 +1,4 @@
-package app.revenge.manager.installer.step
+package io.apexteam.vmanager.installer.step
 
 import android.content.Context
 import android.os.Build
@@ -7,21 +7,21 @@ import androidx.compose.runtime.Stable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
-import app.revenge.manager.BuildConfig
-import app.revenge.manager.domain.manager.PreferenceManager
-import app.revenge.manager.installer.step.download.DownloadBaseStep
-import app.revenge.manager.installer.step.download.DownloadLangStep
-import app.revenge.manager.installer.step.download.DownloadLibsStep
-import app.revenge.manager.installer.step.download.DownloadResourcesStep
-import app.revenge.manager.installer.step.download.DownloadModStep
-import app.revenge.manager.installer.step.installing.InstallStep
-import app.revenge.manager.installer.step.patching.AddModStep
-import app.revenge.manager.installer.step.patching.PatchManifestsStep
-import app.revenge.manager.installer.step.patching.PresignApksStep
-import app.revenge.manager.installer.step.patching.ReplaceIconStep
-import app.revenge.manager.installer.util.LogEntry
-import app.revenge.manager.installer.util.Logger
-import app.revenge.manager.utils.DiscordVersion
+import io.apexteam.vmanager.BuildConfig
+import io.apexteam.vmanager.domain.manager.PreferenceManager
+import io.apexteam.vmanager.installer.step.download.DownloadBaseStep
+import io.apexteam.vmanager.installer.step.download.DownloadLangStep
+import io.apexteam.vmanager.installer.step.download.DownloadLibsStep
+import io.apexteam.vmanager.installer.step.download.DownloadResourcesStep
+import io.apexteam.vmanager.installer.step.download.DownloadModStep
+import io.apexteam.vmanager.installer.step.installing.InstallStep
+import io.apexteam.vmanager.installer.step.patching.AddModStep
+import io.apexteam.vmanager.installer.step.patching.PatchManifestsStep
+import io.apexteam.vmanager.installer.step.patching.PresignApksStep
+import io.apexteam.vmanager.installer.step.patching.ReplaceIconStep
+import io.apexteam.vmanager.installer.util.LogEntry
+import io.apexteam.vmanager.installer.util.Logger
+import io.apexteam.vmanager.utils.DiscordVersion
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.coroutines.delay
@@ -34,7 +34,7 @@ import java.io.File
  *
  * Credit to rushii (github.com/rushiiMachine)
  *
- * @param discordVersion Version of Discord to inject Revenge into
+ * @param discordVersion Version of Discord to inject Vencore into
  */
 @Stable
 class StepRunner(

@@ -1,6 +1,6 @@
-package app.revenge.manager.di
+package io.apexteam.vmanager.di
 
-import app.revenge.manager.domain.repository.RestRepository
+import io.apexteam.vmanager.domain.repository.RestRepository
 import org.koin.core.module.dsl.singleOf
 import org.koin.dsl.module
 

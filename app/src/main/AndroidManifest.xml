@@ -49,7 +49,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="app.revenge.actions.INSTALL"/>
+                <action android:name="io.apexteam.vmanager.actions.INSTALL"/>
                 <category android:name="android.intent.category.OPENABLE"/>
             </intent-filter>
         </activity>

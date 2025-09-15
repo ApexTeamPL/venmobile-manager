@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.components.settings
+package io.apexteam.vmanager.ui.components.settings
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -9,7 +9,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.navigator.LocalNavigator
-import app.revenge.manager.utils.navigate
+import io.apexteam.vmanager.utils.navigate
 
 @Composable
 fun SettingsCategory(

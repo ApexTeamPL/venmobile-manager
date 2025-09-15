@@ -1,9 +1,9 @@
-package app.revenge.manager.network.service
+package io.apexteam.vmanager.network.service
 
-import app.revenge.manager.domain.manager.PreferenceManager
-import app.revenge.manager.network.dto.Commit
-import app.revenge.manager.network.dto.Index
-import app.revenge.manager.network.dto.Release
+import io.apexteam.vmanager.domain.manager.PreferenceManager
+import io.apexteam.vmanager.network.dto.Commit
+import io.apexteam.vmanager.network.dto.Index
+import io.apexteam.vmanager.network.dto.Release
 import io.ktor.client.request.parameter
 import io.ktor.client.request.url
 import kotlinx.coroutines.Dispatchers

@@ -1,16 +1,16 @@
-package app.revenge.manager.updatechecker.worker
+package io.apexteam.vmanager.updatechecker.worker
 
 import android.content.Context
 import android.content.Intent
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
-import app.revenge.manager.domain.manager.InstallManager
-import app.revenge.manager.domain.manager.PreferenceManager
-import app.revenge.manager.domain.repository.RestRepository
-import app.revenge.manager.network.utils.ApiResponse
-import app.revenge.manager.updatechecker.reciever.UpdateBroadcastReceiver
-import app.revenge.manager.utils.DiscordVersion
-import app.revenge.manager.utils.Intents
+import io.apexteam.vmanager.domain.manager.InstallManager
+import io.apexteam.vmanager.domain.manager.PreferenceManager
+import io.apexteam.vmanager.domain.repository.RestRepository
+import io.apexteam.vmanager.network.utils.ApiResponse
+import io.apexteam.vmanager.updatechecker.reciever.UpdateBroadcastReceiver
+import io.apexteam.vmanager.utils.DiscordVersion
+import io.apexteam.vmanager.utils.Intents
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
 

@@ -1,4 +1,4 @@
-package app.revenge.manager.installer.session
+package io.apexteam.vmanager.installer.session
 
 import android.annotation.SuppressLint
 import android.app.PendingIntent
@@ -7,7 +7,7 @@ import android.content.Intent
 import android.content.pm.PackageInstaller.SessionParams
 import android.content.pm.PackageManager
 import android.os.Build
-import app.revenge.manager.installer.Installer
+import io.apexteam.vmanager.installer.Installer
 import java.io.File
 
 internal class SessionInstaller(private val context: Context) : Installer {

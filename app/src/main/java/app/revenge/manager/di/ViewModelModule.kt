@@ -1,10 +1,10 @@
-package app.revenge.manager.di
+package io.apexteam.vmanager.di
 
-import app.revenge.manager.ui.viewmodel.home.HomeViewModel
-import app.revenge.manager.ui.viewmodel.installer.InstallerViewModel
-import app.revenge.manager.ui.viewmodel.installer.LogViewerViewModel
-import app.revenge.manager.ui.viewmodel.libraries.LibrariesViewModel
-import app.revenge.manager.ui.viewmodel.settings.AdvancedSettingsViewModel
+import io.apexteam.vmanager.ui.viewmodel.home.HomeViewModel
+import io.apexteam.vmanager.ui.viewmodel.installer.InstallerViewModel
+import io.apexteam.vmanager.ui.viewmodel.installer.LogViewerViewModel
+import io.apexteam.vmanager.ui.viewmodel.libraries.LibrariesViewModel
+import io.apexteam.vmanager.ui.viewmodel.settings.AdvancedSettingsViewModel
 import org.koin.core.module.dsl.factoryOf
 import org.koin.dsl.module
 

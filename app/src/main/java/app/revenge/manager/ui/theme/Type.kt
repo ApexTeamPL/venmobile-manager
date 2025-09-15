@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.theme
+package io.apexteam.vmanager.ui.theme
 
 import androidx.compose.material3.Typography
 

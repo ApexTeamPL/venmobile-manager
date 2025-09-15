@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.widgets.settings
+package io.apexteam.vmanager.ui.widgets.settings
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -39,11 +39,11 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import app.revenge.manager.R
-import app.revenge.manager.domain.manager.PreferenceManager
-import app.revenge.manager.domain.manager.Theme
-import app.revenge.manager.utils.contentDescription
-import app.revenge.manager.utils.thenIf
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.domain.manager.PreferenceManager
+import io.apexteam.vmanager.domain.manager.Theme
+import io.apexteam.vmanager.utils.contentDescription
+import io.apexteam.vmanager.utils.thenIf
 import kotlinx.coroutines.launch
 
 @Composable

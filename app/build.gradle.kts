@@ -10,26 +10,26 @@ plugins {
 }
 
 android {
-    namespace = "app.revenge.manager"
+    namespace = "io.apexteam.vmanager"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "app.revenge.manager"
+        applicationId = "io.apexteam.vmanager"
         minSdk = 28
         targetSdk = 34
         versionName = version.toString()
         versionCode = versionName!!.removePrefix("v").split("-").first().replace(".", "").toInt()
 
 
-        buildConfigField("String", "MOD_NAME", "\"Revenge\"")
-        buildConfigField("String", "MANAGER_NAME", "\"RevengeManager\"")
-        buildConfigField("String", "REPO", "\"revenge-mod/bundle\"")
-        buildConfigField("String", "ORG_LINK", "\"https://github.com/revenge-mod\"")
+        buildConfigField("String", "MOD_NAME", "\"Vencore\"")
+        buildConfigField("String", "MANAGER_NAME", "\"VencoreManager\"")
+        buildConfigField("String", "REPO", "\"ApexTeamPL/venmobile-bundle\"")
+        buildConfigField("String", "ORG_LINK", "\"https://github.com/ApexTeamPL/\"")
         buildConfigField("String", "INVITE_LINK", "\"https://discord.gg/ddcQf3s2Uq\"")
-        buildConfigField("String", "MODDED_APP_PACKAGE_NAME", "\"app.revenge\"")
-        buildConfigField("int", "MODDED_APP_ICON", "0xFEB23A42")
+        buildConfigField("String", "MODDED_APP_PACKAGE_NAME", "\"io.apexteam.vencore\"")
+        buildConfigField("int", "MODDED_APP_ICON", "0xFF9370DB")
         buildConfigField("int", "MODDED_APP_ICON_ALPHA", "0xFFFBB33C")
-        buildConfigField("int", "MODDED_APP_ICON_OTHER", "0xFFD3575E")
+        buildConfigField("int", "MODDED_APP_ICON_OTHER", "0xFF9370DB")
 
         buildConfigField("String", "GIT_BRANCH", "\"${getCurrentBranch()}\"")
         buildConfigField("String", "GIT_COMMIT", "\"${getLatestCommit()}\"")

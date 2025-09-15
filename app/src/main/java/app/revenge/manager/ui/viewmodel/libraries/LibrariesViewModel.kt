@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.viewmodel.libraries
+package io.apexteam.vmanager.ui.viewmodel.libraries
 
 import android.content.Context
 import cafe.adriel.voyager.core.model.ScreenModel

@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.widgets.settings
+package io.apexteam.vmanager.ui.widgets.settings
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
@@ -14,10 +14,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.luminance
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import app.revenge.manager.BuildConfig
-import app.revenge.manager.R
-import app.revenge.manager.domain.manager.PreferenceManager
-import app.revenge.manager.utils.DiscordVersion
+import io.apexteam.vmanager.BuildConfig
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.domain.manager.PreferenceManager
+import io.apexteam.vmanager.utils.DiscordVersion
 import org.koin.androidx.compose.get
 
 @Composable

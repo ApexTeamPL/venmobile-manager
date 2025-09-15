@@ -1,7 +1,7 @@
-package app.revenge.manager.di
+package io.apexteam.vmanager.di
 
-import app.revenge.manager.network.service.HttpService
-import app.revenge.manager.network.service.RestService
+import io.apexteam.vmanager.network.service.HttpService
+import io.apexteam.vmanager.network.service.RestService
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.cio.CIO
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation

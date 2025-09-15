@@ -1,12 +1,12 @@
-package app.revenge.manager.installer.session
+package io.apexteam.vmanager.installer.session
 
 import android.app.Service
 import android.content.Intent
 import android.content.pm.PackageInstaller
 import android.os.IBinder
-import app.revenge.manager.R
-import app.revenge.manager.ui.activity.MainActivity
-import app.revenge.manager.utils.showToast
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.ui.activity.MainActivity
+import io.apexteam.vmanager.utils.showToast
 
 class InstallService : Service() {
 

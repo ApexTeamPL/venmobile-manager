@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.components.settings
+package io.apexteam.vmanager.ui.components.settings
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box

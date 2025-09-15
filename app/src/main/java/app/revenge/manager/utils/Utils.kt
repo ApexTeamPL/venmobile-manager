@@ -1,4 +1,4 @@
-package app.revenge.manager.utils
+package io.apexteam.vmanager.utils
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -18,7 +18,7 @@ import androidx.collection.ObjectList
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 import androidx.core.graphics.drawable.toBitmap
-import app.revenge.manager.BuildConfig
+import io.apexteam.vmanager.BuildConfig
 import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStreamReader

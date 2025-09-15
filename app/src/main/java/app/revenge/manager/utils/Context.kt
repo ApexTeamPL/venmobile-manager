@@ -1,4 +1,4 @@
-package app.revenge.manager.utils
+package io.apexteam.vmanager.utils
 
 import android.content.Context
 import android.util.TypedValue

@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.screen.settings
+package io.apexteam.vmanager.ui.screen.settings
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.WindowInsets
@@ -27,12 +27,12 @@ import androidx.compose.ui.res.stringResource
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import app.revenge.manager.BuildConfig
-import app.revenge.manager.R
-import app.revenge.manager.domain.manager.PreferenceManager
-import app.revenge.manager.ui.components.settings.SettingsCategory
-import app.revenge.manager.ui.screen.about.AboutScreen
-import app.revenge.manager.utils.DimenUtils
+import io.apexteam.vmanager.BuildConfig
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.domain.manager.PreferenceManager
+import io.apexteam.vmanager.ui.components.settings.SettingsCategory
+import io.apexteam.vmanager.ui.screen.about.AboutScreen
+import io.apexteam.vmanager.utils.DimenUtils
 import org.koin.androidx.compose.get
 
 class SettingsScreen : Screen {

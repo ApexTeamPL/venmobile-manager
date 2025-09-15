@@ -1,18 +1,18 @@
-package app.revenge.manager.installer.step.patching
+package io.apexteam.vmanager.installer.step.patching
 
 import android.os.Build
 import com.github.diamondminer88.zip.ZipCompression
 import com.github.diamondminer88.zip.ZipReader
 import com.github.diamondminer88.zip.ZipWriter
-import app.revenge.manager.R
-import app.revenge.manager.installer.step.Step
-import app.revenge.manager.installer.step.StepGroup
-import app.revenge.manager.installer.step.StepRunner
-import app.revenge.manager.installer.step.download.DownloadBaseStep
-import app.revenge.manager.installer.step.download.DownloadLangStep
-import app.revenge.manager.installer.step.download.DownloadLibsStep
-import app.revenge.manager.installer.step.download.DownloadResourcesStep
-import app.revenge.manager.installer.util.Signer
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.installer.step.Step
+import io.apexteam.vmanager.installer.step.StepGroup
+import io.apexteam.vmanager.installer.step.StepRunner
+import io.apexteam.vmanager.installer.step.download.DownloadBaseStep
+import io.apexteam.vmanager.installer.step.download.DownloadLangStep
+import io.apexteam.vmanager.installer.step.download.DownloadLibsStep
+import io.apexteam.vmanager.installer.step.download.DownloadResourcesStep
+import io.apexteam.vmanager.installer.util.Signer
 import java.io.File
 
 /**

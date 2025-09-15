@@ -1,10 +1,10 @@
-package app.revenge.manager.domain.receiver
+package io.apexteam.vmanager.domain.receiver
 
 import android.annotation.SuppressLint
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import app.revenge.manager.domain.manager.InstallManager
+import io.apexteam.vmanager.domain.manager.InstallManager
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
 

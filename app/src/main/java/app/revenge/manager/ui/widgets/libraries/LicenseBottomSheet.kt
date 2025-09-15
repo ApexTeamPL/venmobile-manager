@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.widgets.libraries
+package io.apexteam.vmanager.ui.widgets.libraries
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -22,7 +22,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.mikepenz.aboutlibraries.entity.License
-import app.revenge.manager.utils.DimenUtils
+import io.apexteam.vmanager.utils.DimenUtils
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

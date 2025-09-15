@@ -1,4 +1,4 @@
-package app.revenge.manager.utils
+package io.apexteam.vmanager.utils
 
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.asPaddingValues

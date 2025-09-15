@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.screen.about
+package io.apexteam.vmanager.ui.screen.about
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -44,14 +44,14 @@ import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import app.revenge.manager.BuildConfig
-import app.revenge.manager.R
-import app.revenge.manager.domain.manager.PreferenceManager
-import app.revenge.manager.ui.screen.libraries.LibrariesScreen
-import app.revenge.manager.ui.widgets.about.LinkItem
-import app.revenge.manager.ui.widgets.about.ListItem
-import app.revenge.manager.ui.widgets.about.UserEntry
-import app.revenge.manager.utils.*
+import io.apexteam.vmanager.BuildConfig
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.domain.manager.PreferenceManager
+import io.apexteam.vmanager.ui.screen.libraries.LibrariesScreen
+import io.apexteam.vmanager.ui.widgets.about.LinkItem
+import io.apexteam.vmanager.ui.widgets.about.ListItem
+import io.apexteam.vmanager.ui.widgets.about.UserEntry
+import io.apexteam.vmanager.utils.*
 import org.koin.androidx.compose.get
 
 class AboutScreen : Screen {

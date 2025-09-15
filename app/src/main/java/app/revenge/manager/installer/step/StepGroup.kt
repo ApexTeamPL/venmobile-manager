@@ -1,7 +1,7 @@
-package app.revenge.manager.installer.step
+package io.apexteam.vmanager.installer.step
 
 import androidx.annotation.StringRes
-import app.revenge.manager.R
+import io.apexteam.vmanager.R
 
 /**
  * Represents a group of [Step]s
@@ -18,7 +18,7 @@ enum class StepGroup(@StringRes val nameRes: Int) {
     PATCHING(R.string.group_patch),
 
     /**
-     * Only contains the [install step][app.revenge.manager.installer.step.installing.InstallStep]
+     * Only contains the [install step][io.apexteam.vmanager.installer.step.installing.InstallStep]
      */
     INSTALLING(R.string.group_installing)
 }

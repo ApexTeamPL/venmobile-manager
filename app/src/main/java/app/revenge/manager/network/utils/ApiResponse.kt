@@ -1,4 +1,4 @@
-package app.revenge.manager.network.utils
+package io.apexteam.vmanager.network.utils
 
 import io.ktor.http.HttpStatusCode
 

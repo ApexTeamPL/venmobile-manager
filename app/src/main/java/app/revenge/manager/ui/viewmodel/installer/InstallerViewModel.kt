@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.viewmodel.installer
+package io.apexteam.vmanager.ui.viewmodel.installer
 
 import android.content.Context
 import android.content.Intent
@@ -7,16 +7,16 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.core.app.ShareCompat
 import androidx.core.content.FileProvider
-import app.revenge.manager.BuildConfig
+import io.apexteam.vmanager.BuildConfig
 import cafe.adriel.voyager.core.model.ScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
-import app.revenge.manager.R
-import app.revenge.manager.domain.manager.InstallManager
-import app.revenge.manager.installer.step.Step
-import app.revenge.manager.installer.step.StepGroup
-import app.revenge.manager.installer.step.StepRunner
-import app.revenge.manager.utils.DiscordVersion
-import app.revenge.manager.utils.showToast
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.domain.manager.InstallManager
+import io.apexteam.vmanager.installer.step.Step
+import io.apexteam.vmanager.installer.step.StepGroup
+import io.apexteam.vmanager.installer.step.StepRunner
+import io.apexteam.vmanager.utils.DiscordVersion
+import io.apexteam.vmanager.utils.showToast
 import kotlinx.collections.immutable.ImmutableMap
 import kotlinx.collections.immutable.toImmutableMap
 import kotlinx.coroutines.Dispatchers

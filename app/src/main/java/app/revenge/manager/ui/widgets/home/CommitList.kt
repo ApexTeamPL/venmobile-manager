@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.widgets.home
+package io.apexteam.vmanager.ui.widgets.home
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -20,9 +20,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
-import app.revenge.manager.R
-import app.revenge.manager.network.dto.Commit
-import app.revenge.manager.utils.itemsIndexed
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.network.dto.Commit
+import io.apexteam.vmanager.utils.itemsIndexed
 
 @Composable
 fun CommitList(

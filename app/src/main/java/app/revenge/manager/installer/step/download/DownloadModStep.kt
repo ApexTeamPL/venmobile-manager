@@ -1,14 +1,14 @@
-package app.revenge.manager.installer.step.download
+package io.apexteam.vmanager.installer.step.download
 
 import androidx.compose.runtime.Stable
-import app.revenge.manager.R
-import app.revenge.manager.installer.step.download.base.DownloadStep
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.installer.step.download.base.DownloadStep
 import java.io.File
 
 /**
- * Downloads the Revenge XPosed module
+ * Downloads the Vencore XPosed module
  *
- * https://github.com/revenge-mod/revenge-xposed
+ * https://github.com/ApexTeamPL/venmobile-xposed
  */
 @Stable
 class DownloadModStep(
@@ -17,7 +17,7 @@ class DownloadModStep(
 
     override val nameRes = R.string.step_dl_mod
 
-    override val downloadFullUrl: String = "https://github.com/revenge-mod/revenge-xposed/releases/latest/download/app-release.apk"
+    override val downloadFullUrl: String = "https://github.com/ApexTeamPL/venmobile-xposed/releases/latest/download/app-release.apk"
     override val destination = preferenceManager.moduleLocation
     override val workingCopy = workingDir.resolve("xposed.apk")
 

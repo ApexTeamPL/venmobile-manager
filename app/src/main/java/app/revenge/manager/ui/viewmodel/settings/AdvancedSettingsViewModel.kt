@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.viewmodel.settings
+package io.apexteam.vmanager.ui.viewmodel.settings
 
 import android.content.Context
 import android.os.Environment
@@ -7,14 +7,14 @@ import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
 import cafe.adriel.voyager.core.model.ScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
-import app.revenge.manager.BuildConfig
-import app.revenge.manager.R
-import app.revenge.manager.domain.manager.InstallMethod
-import app.revenge.manager.domain.manager.PreferenceManager
-import app.revenge.manager.domain.manager.UpdateCheckerDuration
-import app.revenge.manager.installer.shizuku.ShizukuPermissions
-import app.revenge.manager.updatechecker.worker.UpdateWorker
-import app.revenge.manager.utils.showToast
+import io.apexteam.vmanager.BuildConfig
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.domain.manager.InstallMethod
+import io.apexteam.vmanager.domain.manager.PreferenceManager
+import io.apexteam.vmanager.domain.manager.UpdateCheckerDuration
+import io.apexteam.vmanager.installer.shizuku.ShizukuPermissions
+import io.apexteam.vmanager.updatechecker.worker.UpdateWorker
+import io.apexteam.vmanager.utils.showToast
 import kotlinx.coroutines.launch
 import java.io.File
 
@@ -33,9 +33,9 @@ class AdvancedSettingsViewModel(
     fun updateCheckerDuration(updateCheckerDuration: UpdateCheckerDuration) {
         val wm = WorkManager.getInstance(context)
         when (updateCheckerDuration) {
-            UpdateCheckerDuration.DISABLED -> wm.cancelUniqueWork("app.revenge.manager.UPDATE_CHECK")
+            UpdateCheckerDuration.DISABLED -> wm.cancelUniqueWork("io.apexteam.vmanager.UPDATE_CHECK")
             else -> wm.enqueueUniquePeriodicWork(
-                "app.revenge.manager.UPDATE_CHECK",
+                "io.apexteam.vmanager.UPDATE_CHECK",
                 ExistingPeriodicWorkPolicy.CANCEL_AND_REENQUEUE,
                 PeriodicWorkRequestBuilder<UpdateWorker>(
                     updateCheckerDuration.time,

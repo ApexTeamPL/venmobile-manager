@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.widgets.installer
+package io.apexteam.vmanager.ui.widgets.installer
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.background
@@ -23,11 +23,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import app.revenge.manager.R
-import app.revenge.manager.installer.step.Step
-import app.revenge.manager.installer.step.StepStatus
-import app.revenge.manager.installer.step.download.base.DownloadStep
-import app.revenge.manager.utils.thenIf
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.installer.step.Step
+import io.apexteam.vmanager.installer.step.StepStatus
+import io.apexteam.vmanager.installer.step.download.base.DownloadStep
+import io.apexteam.vmanager.utils.thenIf
 
 /**
  * Collapsable card containing a group of steps

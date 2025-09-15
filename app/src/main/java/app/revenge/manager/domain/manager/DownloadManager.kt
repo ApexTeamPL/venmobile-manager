@@ -1,11 +1,11 @@
-package app.revenge.manager.domain.manager
+package io.apexteam.vmanager.domain.manager
 
 import android.app.DownloadManager
 import android.content.Context
 import android.database.Cursor
 import android.net.Uri
 import androidx.core.content.getSystemService
-import app.revenge.manager.BuildConfig
+import io.apexteam.vmanager.BuildConfig
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.delay

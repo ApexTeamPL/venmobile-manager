@@ -1,4 +1,4 @@
-package app.revenge.manager.ui.screen.installer
+package io.apexteam.vmanager.ui.screen.installer
 
 import android.content.Intent
 import androidx.activity.ComponentActivity
@@ -37,14 +37,14 @@ import cafe.adriel.voyager.core.screen.ScreenKey
 import cafe.adriel.voyager.koin.getScreenModel
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import app.revenge.manager.R
-import app.revenge.manager.domain.manager.PreferenceManager
-import app.revenge.manager.installer.step.StepStatus
-import app.revenge.manager.ui.viewmodel.installer.InstallerViewModel
-import app.revenge.manager.ui.widgets.dialog.BackWarningDialog
-import app.revenge.manager.ui.widgets.dialog.DownloadFailedDialog
-import app.revenge.manager.ui.widgets.installer.StepGroupCard
-import app.revenge.manager.utils.DiscordVersion
+import io.apexteam.vmanager.R
+import io.apexteam.vmanager.domain.manager.PreferenceManager
+import io.apexteam.vmanager.installer.step.StepStatus
+import io.apexteam.vmanager.ui.viewmodel.installer.InstallerViewModel
+import io.apexteam.vmanager.ui.widgets.dialog.BackWarningDialog
+import io.apexteam.vmanager.ui.widgets.dialog.DownloadFailedDialog
+import io.apexteam.vmanager.ui.widgets.installer.StepGroupCard
+import io.apexteam.vmanager.utils.DiscordVersion
 import okhttp3.internal.toImmutableList
 import org.koin.androidx.compose.get
 import org.koin.core.parameter.parametersOf
