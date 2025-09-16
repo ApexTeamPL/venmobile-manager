@@ -12,7 +12,7 @@ jobs:
         name: Release
         permissions:
             contents: write
-        runs-on: ubuntu-latest //temporary workaround
+        runs-on: ubuntu-latest
         steps:
             - name: Checkout
               uses: actions/checkout@v4
