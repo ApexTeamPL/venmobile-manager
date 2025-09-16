@@ -91,7 +91,7 @@ android {
         outputs.all {
             this as com.android.build.gradle.internal.api.ApkVariantOutputImpl
 
-            outputFileName = "vencore-manager-$version.apk"
+            outputFileName = "${rootProject.name}-$version.apk"
         }
     }
 
