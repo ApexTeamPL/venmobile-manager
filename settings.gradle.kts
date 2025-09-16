@@ -1,4 +1,4 @@
-rootProject.name = "revenge-manager"
+rootProject.name = "vencore-manager"
 
 pluginManagement {
     repositories {
