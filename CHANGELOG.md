@@ -49,6 +49,57 @@
 * update about screen links ([59c36c2](https://github.com/ApexTeamPL/venmobile-manager/commit/59c36c288fbcb1144067b150644e7b511180995b))
 * Update mirror list, and fallback to default on invalid selection ([bb31a90](https://github.com/ApexTeamPL/venmobile-manager/commit/bb31a90c714eff84e163ca336d9ee23eea80252c))
 
+# 1.0.0 (2025-09-16)
+
+
+### Bug Fixes
+
+* `fillVoid` when replacing AndroidManifest.xml in base apk ([c623d1d](https://github.com/ApexTeamPL/venmobile-manager/commit/c623d1d174b922e27c1b9d90d95ceff95a48bb3f))
+* actually increment resource index ([980811d](https://github.com/ApexTeamPL/venmobile-manager/commit/980811d4107acf425d689b3f0b831e58d064b1a4))
+* App version comparison for updates ([b2a5122](https://github.com/ApexTeamPL/venmobile-manager/commit/b2a51228b41d349e5b973557232624d2e1547895))
+* Appearance tab causing crashes ([bdff280](https://github.com/ApexTeamPL/venmobile-manager/commit/bdff280e29a6cb316ac8ad936621281c8c1f8c18))
+* correct session handling for split package ([8deea0f](https://github.com/ApexTeamPL/venmobile-manager/commit/8deea0fed3fa6b53ac5db236404052367e4dc960))
+* Correct version code parsing and update dialog comparison ([e6be2f5](https://github.com/ApexTeamPL/venmobile-manager/commit/e6be2f501820ae9cc3663a4cfaf4ac7e125dcc01))
+* Display correct group status in between steps ([706a547](https://github.com/ApexTeamPL/venmobile-manager/commit/706a547f65e9e72f13cf56a8e0102db6617b4b9a))
+* Don't cache canceled partial downloads ([b0a637d](https://github.com/ApexTeamPL/venmobile-manager/commit/b0a637d7f6987fa4549ebcd2df67b603ce0b2641)), closes [#21](https://github.com/ApexTeamPL/venmobile-manager/issues/21)
+* Don't remove "unnecessary" prefix handling ([7266bf5](https://github.com/ApexTeamPL/venmobile-manager/commit/7266bf5b7e5c7d642a7d79fc1f8ebc111b34d8cc))
+* downgrade lspatch & add proguard rules ([#69](https://github.com/ApexTeamPL/venmobile-manager/issues/69)) ([4909003](https://github.com/ApexTeamPL/venmobile-manager/commit/4909003439b4cc86b15c338c641528d3cce9a81a))
+* Fix download link ([2ab4e50](https://github.com/ApexTeamPL/venmobile-manager/commit/2ab4e501632683ea6995c41fff419180999935c1))
+* fix maisy's username ([b35908e](https://github.com/ApexTeamPL/venmobile-manager/commit/b35908eb4441404cf6ccf5c498ddc9de0eb64267))
+* hack for red patched icon ([f9ae0ba](https://github.com/ApexTeamPL/venmobile-manager/commit/f9ae0ba7051b53b172a535e938c876286834c6d4))
+* Incorrect xposed module cache path ([4c7324b](https://github.com/ApexTeamPL/venmobile-manager/commit/4c7324bc2cdf88a6d829cf7cfe1082829dcc3b11))
+* Invalid updater URLs ([4d01c52](https://github.com/ApexTeamPL/venmobile-manager/commit/4d01c52a21922dc0897cb76917139a9c1bc59e2f))
+* migrate to new update tracker ([#6](https://github.com/ApexTeamPL/venmobile-manager/issues/6)) ([35eafd1](https://github.com/ApexTeamPL/venmobile-manager/commit/35eafd120787139d1673254dc713aa097f8ea566))
+* only show launch button if install is successful ([#63](https://github.com/ApexTeamPL/venmobile-manager/issues/63)) ([b302f93](https://github.com/ApexTeamPL/venmobile-manager/commit/b302f93e3ea643f83c5f6426017b1a9976998a67)), closes [#35](https://github.com/ApexTeamPL/venmobile-manager/issues/35)
+* Parse update download URL from API response ([d9b6916](https://github.com/ApexTeamPL/venmobile-manager/commit/d9b6916a52f72a3bd27fcfb0ca5787fdc084fdc3))
+* **README:** imgshield link ([#2](https://github.com/ApexTeamPL/venmobile-manager/issues/2)) ([6266d65](https://github.com/ApexTeamPL/venmobile-manager/commit/6266d65f1a08cf9201195c0310567a72cd9cf079))
+* Remove unnecessary prefix handling ([f226621](https://github.com/ApexTeamPL/venmobile-manager/commit/f22662196d3be971d1c46853fdcb165d2158213a))
+* request Shizuku permissions only when necessary ([#64](https://github.com/ApexTeamPL/venmobile-manager/issues/64)) ([cc449da](https://github.com/ApexTeamPL/venmobile-manager/commit/cc449da39d02eb9cfc91adb6bdd17230fa5390cd))
+* Switch to JingMatrix/LSPatch to fix patching on Android 15 ([#10](https://github.com/ApexTeamPL/venmobile-manager/issues/10)) ([343a91d](https://github.com/ApexTeamPL/venmobile-manager/commit/343a91d83c3e394c3cd6e396de5d4a33a5ae3dbe))
+* **ui:** discord link on about screen ([#4](https://github.com/ApexTeamPL/venmobile-manager/issues/4)) ([8cbe4ca](https://github.com/ApexTeamPL/venmobile-manager/commit/8cbe4ca6e37dbc1faef4d1f4a6b414ebffe2dc42))
+
+
+### Features
+
+* add installer selection UI ([8e484a8](https://github.com/ApexTeamPL/venmobile-manager/commit/8e484a8e969b3e68da3b033122a36f856d2ac2f9))
+* Add progress tracking to update download ([75602c1](https://github.com/ApexTeamPL/venmobile-manager/commit/75602c1b4a7e2dc41d6a944f9aab0a352d318baa))
+* add shizuku dependencies ([42acb6a](https://github.com/ApexTeamPL/venmobile-manager/commit/42acb6a534a39553ea188f70d5b793c207550efb))
+* Cleanup about page and remove previous team members ([39ee2c6](https://github.com/ApexTeamPL/venmobile-manager/commit/39ee2c654c62b63045d918cf7ffddcee55f6614f))
+* downgrade shizuku and finish installer ([8ede0cd](https://github.com/ApexTeamPL/venmobile-manager/commit/8ede0cdc861fa7883f4f3872168ab45155002b21))
+* Download from Revenge ([8ec0ca7](https://github.com/ApexTeamPL/venmobile-manager/commit/8ec0ca729826c720c2733f02b1160465fb2259ae))
+* Download updates from Revenge ([9901299](https://github.com/ApexTeamPL/venmobile-manager/commit/9901299a16d5901f4681dc70cd0ee375bfc1874c))
+* **DownloadManager:** properly handle downloading ([#66](https://github.com/ApexTeamPL/venmobile-manager/issues/66)) ([d65cd45](https://github.com/ApexTeamPL/venmobile-manager/commit/d65cd45a829c1b136ea704840de70deb5b64419a))
+* enable release optimizations ([#67](https://github.com/ApexTeamPL/venmobile-manager/issues/67)) ([ed9fb6e](https://github.com/ApexTeamPL/venmobile-manager/commit/ed9fb6e80535d2c73eea6d112f7366debe595fc3))
+* Implement automatic mirror switching and fix handling of stalled downloads ([#14](https://github.com/ApexTeamPL/venmobile-manager/issues/14)) ([9921793](https://github.com/ApexTeamPL/venmobile-manager/commit/992179349641e96fc383650767b196557767ea22))
+* Rebrand to Revenge ([bdc40e9](https://github.com/ApexTeamPL/venmobile-manager/commit/bdc40e9db5de7e5b272727cbad7ff3f3c5b17ac3))
+* Rebrand to Revenge ([#7](https://github.com/ApexTeamPL/venmobile-manager/issues/7)) ([eb13258](https://github.com/ApexTeamPL/venmobile-manager/commit/eb1325834acc8129d3b61e4ef9ab4cfd7c665f3f))
+* shizuku binding and permission handling ([493ec80](https://github.com/ApexTeamPL/venmobile-manager/commit/493ec80eccff65816c6f7c17d5027a1ff2fd9d7f))
+* shizuku installer ([#55](https://github.com/ApexTeamPL/venmobile-manager/issues/55)) ([c60414b](https://github.com/ApexTeamPL/venmobile-manager/commit/c60414bb1e7254a0f64b43d8aedbdeb380d98a73))
+* shizuku user service ([3f2b18f](https://github.com/ApexTeamPL/venmobile-manager/commit/3f2b18f52de8c8552408311091845e9248fdf276))
+* Temporarily use DEFAULT if SHIZUKU permissions are not granted ([#15](https://github.com/ApexTeamPL/venmobile-manager/issues/15)) ([f784bf6](https://github.com/ApexTeamPL/venmobile-manager/commit/f784bf622d764c2c9e43d0ab20ef3b7c83de13c1))
+* update about screen links ([59c36c2](https://github.com/ApexTeamPL/venmobile-manager/commit/59c36c288fbcb1144067b150644e7b511180995b))
+* Update mirror list, and fallback to default on invalid selection ([bb31a90](https://github.com/ApexTeamPL/venmobile-manager/commit/bb31a90c714eff84e163ca336d9ee23eea80252c))
+
 # [1.2.0](https://github.com/revenge-mod/revenge-manager/compare/v1.1.0...v1.2.0) (2025-03-17)
 
 
