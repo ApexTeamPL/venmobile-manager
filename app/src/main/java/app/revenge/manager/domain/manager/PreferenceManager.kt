@@ -22,7 +22,7 @@ class PreferenceManager(context: Context) :
 
     var appName by stringPreference("app_name", BuildConfig.MOD_NAME)
 
-    var discordVersion by stringPreference("discord_version", "292016")
+    var discordVersion by stringPreference("discord_version", "292014")
 
     var moduleVersion by stringPreference("module_version", "")
 
