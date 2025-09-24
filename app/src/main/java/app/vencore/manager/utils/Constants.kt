@@ -7,6 +7,7 @@ object Constants {
     val TEAM_MEMBERS = listOf(
         TeamMember("Win81VMUser", "Developer", "Win81VMUser"),
         TeamMember("slara6804", "Team", "slara6804"),
+        TeamMember("wavedevgit", "Team", "wavedevgit"),
     )
 
     // NOTE: This is no longer used
