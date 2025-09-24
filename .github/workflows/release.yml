@@ -45,13 +45,7 @@ jobs:
               run: |
                   cp ~/keystore.jks app/keystore.jks
                   ls app/ | grep keystore.jks
-
-            - name: Release
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                  KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
-                  KEYSTORE_ENTRY_ALIAS: ${{ secrets.KEYSTORE_ENTRY_ALIAS }}
-                  KEYSTORE_ENTRY_PASSWORD: ${{ secrets.KEYSTORE_ENTRY_PASSWORD }}
+                  
             - name: "Setup directories"
               run: |
                   mkdir -p /tmp/build/apks
