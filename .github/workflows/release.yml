@@ -43,8 +43,8 @@ jobs:
               run: npm install
             - name: Setup keystore
               run: |
-                  cp ~/keystore.jks app/keystore.jks
-                  ls app/ | grep keystore.jks
+                echo "${{ secrets.KEYSTORE_JKS }}" | base64 -d > app/keystore.jks
+                test -f app/keystore.jks
                   
             - name: "Setup directories"
               run: |
@@ -58,8 +58,15 @@ jobs:
               run: wget -nv "https://github.com/patrickfav/uber-apk-signer/releases/download/v1.2.1/uber-apk-signer-1.2.1.jar" -O /tmp/build/tools/uber-apk-signer.jar
 
             - name: "Sign release APK"
-              run: java -jar /tmp/build/tools/uber-apk-signer.jar --apks ./app/build/outputs/apk/release/app-release-unsigned.apk --out /tmp/build/apks/
-
+              run: |
+                java -jar /tmp/build/tools/uber-apk-signer.jar \
+                  --apks ./app/build/outputs/apk/release/app-release-unsigned.apk \
+                  --out /tmp/build/apks/ \
+                  --ks ./app/keystore.jks \
+                  --ksAlias "${{ secrets.KEYSTORE_ALIAS }}" \
+                  --ksPass "${{ secrets.KEYSTORE_PASSWORD }}" \
+                  --ksKeyPass "${{ secrets.KEY_PASSWORD }}"
+                  
             - name: "Rename release APK"
               run: mv /tmp/build/apks/app-release-aligned-debugSigned.apk /tmp/build/apks/app-release.apk
 
